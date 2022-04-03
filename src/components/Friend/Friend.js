@@ -6,7 +6,7 @@ const Friend = ({friend}) => {
     let navigate  = useNavigate()
 
     const friendDitels = () => {
-        const path = `Friend/${id}`
+        const path = `/friend/${id}`
         navigate(path)
     }
 
